@@ -1,8 +1,8 @@
 
 import torch
 from torch.utils.data import DataLoader, Dataset
-from .utils.functional import F
-from .utils.default_args import NUM_WORKERS, BATCH_SIZE
+from modular.utils.functional import F
+from modular.utils.default_args import NUM_WORKERS, BATCH_SIZE
 
 
 def create_dataloader(dataset: Dataset,

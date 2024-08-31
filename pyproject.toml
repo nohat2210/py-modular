@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "py-modular"
+name = "pyburn-modular"
 version = "0.1.0"
 description = "The built-in functions often used during training with PyTorch"
 authors = ["philn"]

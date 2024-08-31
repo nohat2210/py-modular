@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from typing import List
-from .types import HistoryTraining
+from modular.utils.types import HistoryTraining
 
 
 class PlotData:

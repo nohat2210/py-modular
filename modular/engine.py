@@ -4,9 +4,9 @@ import torch.utils
 import torch.utils.data
 from typing import Tuple
 from timeit import default_timer as timer
-from .utils.functional import F
-from .utils import HistoryTraining, progress_bar
-from .utils.default_args import NUM_EPOCHS
+from modular.utils.functional import F
+from modular.utils import HistoryTraining, progress_bar
+from modular.utils.default_args import NUM_EPOCHS
 
 
 class Engine:
